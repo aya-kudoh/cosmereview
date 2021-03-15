@@ -1,12 +1,13 @@
 /* body */
 body {
-  background-image: url("wallpaper.jpg");
+  /* background-image: url("wallpaper.jpg"); */
+  background: #AD8998;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   color: #707070;
-  font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+  /* font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO"; */
 }
 
 /* header */
@@ -19,8 +20,6 @@ header {
   margin-left: auto;
   margin-right: auto;
   height: 200px;
-
-
 }
 /* ナビゲーションメニュー */
 .nav-bar {
@@ -260,8 +259,3 @@ dl.serch dd{
 /* main-end */
 
 /* footer */
-.footer {
-  width: 1800px;
-  height: 100px;
-  background: #FBF2C6;
-}

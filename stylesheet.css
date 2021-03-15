@@ -1,0 +1,267 @@
+/* body */
+body {
+  background-image: url("wallpaper.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #707070;
+  font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+}
+
+/* header */
+header {
+  width:1300px;
+}
+/* ヘッダーロゴ */
+.header-logo img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+
+
+}
+/* ナビゲーションメニュー */
+.nav-bar {
+  text-align: center;
+}
+
+.nav-bar li{
+  list-style: none;
+  display: inline-block;
+  margin: 20px 40px;
+}
+.nav-bar a {
+  color: white;
+  text-decoration: none;
+  font-size: 45px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-shadow: 1px 3px 6px #000000;
+
+}
+/* header-end */
+
+/* side bar */
+.side-bar li{
+  list-style: none;
+}
+.side-bar a {
+  text-decoration: none;
+}
+.side-bar h2{
+  font-size: 17px;
+}
+.side-bar h3 {
+  font-size: 10px;
+}
+.side-bar p {
+  font-size: 5px;
+}
+/* ログイン */
+.login {
+  float: right;
+  padding: 10px;
+  margin: 0px 5px;
+  background: #ffffff;
+  border: solid 3px #707070;
+  border-radius: 20px;
+  width:250px;
+  position: absolute;
+  top: 350px;
+  left: 1065px;
+  box-shadow: 8px 4px 19px -5px #777777;
+}
+dl.login-form dt{
+  clear:left;
+  position: relative;
+  float: left;
+  width: 7em;
+  padding:10px 0px 0px 0px;
+}
+dl.login-form dd{
+  margin-left: 35px;
+  width: 300px;
+  padding: 10px 0px 10px 0px;
+}
+input.text {
+  width:120px;
+}
+.signup {
+  display: inline-block;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  background: #EB7777;
+  color: #ffffff;
+  border: 1px solid #EB7777;
+  margin:10px 5px;
+}
+.logout {
+  display: inline-block;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  background: #707070;
+  color: #ffffff;
+  border: 1px solid #707070;
+}
+/* 検索 */
+.serch {
+  float: right;
+  padding: 10px;
+  margin: 5px;
+  background: #ffffff;
+  border: solid 3px #707070;
+  border-radius: 20px;
+  width:250px;
+  position: absolute;
+  top: 625px;
+  left: 1065px;
+  box-shadow: 8px 4px 19px -5px #777777;
+}
+dl.serch-form dt{
+  clear:left;
+  position: relative;
+  float: left;
+  width: 7em;
+  padding:10px 0px 0px 0px;
+}
+dl.serch dd{
+  margin-left: 35px;
+  width: 300px;
+  padding: 10px 0px 10px 0px;
+}
+.serch-btn {
+  display: inline-block;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  background: #3D3737;
+  color: #ffffff;
+  border: 1px solid #3D3737;
+  margin:10px 5px;
+}
+
+/* カテゴリー */
+.category {
+  float: right;
+  padding: 10px;
+  margin: 5px;
+  background: #ffffff;
+  border: solid 3px #707070;
+  border-radius: 20px;
+  width:250px;
+  position: absolute;
+  top: 770px;
+  left: 1065px;
+  box-shadow: 8px 4px 19px -5px #777777;
+}
+.category li {
+  color: #707070;
+}
+
+/* side-bar end */
+
+/* main */
+.main {
+  float: left;
+}
+.latest-post{
+  width: 990px;
+  height: 990px;
+  position: absolute;
+  top: 350px;
+  left: 15px;
+  padding: 20px;
+  background: #ffffff;
+  border: solid 3px #707070;
+  border-radius: 20px;
+  box-shadow: 8px 4px 19px -5px #777777;
+}
+.latest-post-box {
+  width: 600px;
+  height: 700px;
+  position: absolute;
+  top: 100px;
+  left: 200px;
+  padding: 20px;
+  background: #ffffff;
+}
+.latest-post-box img {
+  height: 600px;
+  width: 600px;
+  text-align: center;
+}
+.latest-post h2 {
+  height: 800px;
+  width: 200px;
+  margin: 30px;
+  text-align: left;
+}
+
+/* 人気の投稿 */
+.container{
+  width: 990px;
+  height: 800px;
+  position: absolute;
+  top: 1400px;
+  left: 15px;
+  padding: 20px;
+  background: #ffffff;
+  border: solid 3px #707070;
+  border-radius: 20px;
+  box-shadow: 8px 4px 19px -5px #777777;
+}
+.container h2 {
+  height: 800px;
+  width: 200px;
+  margin: 30px;
+  text-align: left;
+}
+.box1 {
+  width: 400px;
+  height: 600px;
+  position: absolute;
+  top: 130px;
+  left: 30px;
+  background: #ffffff;
+  border: solid 3px #707070;
+  border-radius: 10px;
+  padding: 30px;
+}
+.box2 {
+  width: 400px;
+  height: 600px;
+  position: absolute;
+  top: 130px;
+  left: 520px;
+  background: #ffffff;
+  border: solid 3px #707070;
+  border-radius: 10px;
+  padding: 30px;
+}
+.box1 img,.box2 img {
+  margin : 10px 50px;
+  width:300px;
+  height:300px;
+}
+.post-category {
+  display: inline-block;
+  background: #F39E9E;
+  color: #ffffff;
+  border: solid 1px ;
+  border-radius: 10px;
+  font-size:15px;
+}
+
+/* main-end */
+
+/* footer */
+.footer {
+  width: 1800px;
+  height: 100px;
+  background: #FBF2C6;
+}

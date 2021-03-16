@@ -323,3 +323,28 @@ dl.serch dd{
 /* main-end */
 
 /* footer */
+.footer {
+  clear: both;
+  margin-top:2500px;
+  width:1350px;
+  height:200px;
+  background: #AD8998;
+  display: flex;
+}
+.footer img {
+  margin:30px 780px 20px 50px;
+}
+.footer li {
+  margin-top:10px;
+  list-style: none;
+  font-size: 20px;
+}
+.footer a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.footer a:hover {
+  color: #78415D;
+  text-decoration: none;
+}
+/* footer-end */

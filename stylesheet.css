@@ -1,18 +1,18 @@
 /* body */
 body {
   /* background-image: url("wallpaper.jpg"); */
-  background: #AD8998;
+  background: #ffffff;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   color: #707070;
-  /* font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO"; */
+  font-family: "游ゴシック", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
 }
 
 /* header */
 header {
-  width:1300px;
+  width:1350px;
 }
 /* ヘッダーロゴ */
 .header-logo img{
@@ -24,12 +24,16 @@ header {
 /* ナビゲーションメニュー */
 .nav-bar {
   text-align: center;
+  background: #AD8998;
+  width:1350px;
+  height: 70px;
+  margin:auto;
+  padding:0px;
 }
-
 .nav-bar li{
   list-style: none;
   display: inline-block;
-  margin: 20px 40px;
+  padding-left: 60px;
 }
 .nav-bar a {
   color: white;
@@ -38,7 +42,6 @@ header {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  text-shadow: 1px 3px 6px #000000;
 
 }
 /* header-end */
@@ -47,14 +50,11 @@ header {
 .side-bar li{
   list-style: none;
 }
-.side-bar a {
-  text-decoration: none;
-}
 .side-bar h2{
-  font-size: 17px;
+  font-size: 20px;
 }
-.side-bar h3 {
-  font-size: 10px;
+.side-bar span {
+  font-weight: 500;
 }
 .side-bar p {
   font-size: 5px;
@@ -62,7 +62,7 @@ header {
 /* ログイン */
 .login {
   float: right;
-  padding: 10px;
+  padding: 15px;
   margin: 0px 5px;
   background: #ffffff;
   border: solid 3px #707070;
@@ -79,6 +79,7 @@ dl.login-form dt{
   float: left;
   width: 7em;
   padding:10px 0px 0px 0px;
+  font-weight: 500;
 }
 dl.login-form dd{
   margin-left: 35px;
@@ -96,9 +97,9 @@ input.text {
   background: #EB7777;
   color: #ffffff;
   border: 1px solid #EB7777;
-  margin:10px 5px;
+  margin:10px 10px 10px 90px;
 }
-.logout {
+.login-btn {
   display: inline-block;
   border-radius: 5px;
   text-align: center;
@@ -107,17 +108,21 @@ input.text {
   color: #ffffff;
   border: 1px solid #707070;
 }
+.login a {
+  text-decoration: none;
+  font-size: 15px;
+}
 /* 検索 */
 .serch {
   float: right;
-  padding: 10px;
+  padding: 15px;
   margin: 5px;
   background: #ffffff;
   border: solid 3px #707070;
   border-radius: 20px;
   width:250px;
   position: absolute;
-  top: 625px;
+  top: 690px;
   left: 1065px;
   box-shadow: 8px 4px 19px -5px #777777;
 }
@@ -142,24 +147,29 @@ dl.serch dd{
   color: #ffffff;
   border: 1px solid #3D3737;
   margin:10px 5px;
+  width:60px;
 }
 
 /* カテゴリー */
 .category {
   float: right;
-  padding: 10px;
+  padding: 15px;
   margin: 5px;
   background: #ffffff;
   border: solid 3px #707070;
   border-radius: 20px;
   width:250px;
   position: absolute;
-  top: 770px;
+  top: 870px;
   left: 1065px;
   box-shadow: 8px 4px 19px -5px #777777;
 }
-.category li {
+.category ul li a {
+  text-decoration: none;
   color: #707070;
+  font-weight: 500;
+  font-size: 17px;
+  padding-bottom: 15px;
 }
 
 /* side-bar end */
@@ -170,7 +180,7 @@ dl.serch dd{
 }
 .latest-post{
   width: 990px;
-  height: 990px;
+  height: 1200px;
   position: absolute;
   top: 350px;
   left: 15px;
@@ -193,20 +203,27 @@ dl.serch dd{
   height: 600px;
   width: 600px;
   text-align: center;
+  margin-bottom: 20px;
 }
 .latest-post h2 {
   height: 800px;
   width: 200px;
-  margin: 30px;
+  margin: 10px;
   text-align: left;
+  font-size: 30px;
 }
-
+.latest-post h4 {
+  font-size: 25px;
+}
+.latest-post span {
+  font-size: 20px;
+}
 /* 人気の投稿 */
 .container{
   width: 990px;
   height: 800px;
   position: absolute;
-  top: 1400px;
+  top: 1650px;
   left: 15px;
   padding: 20px;
   background: #ffffff;
@@ -217,9 +234,17 @@ dl.serch dd{
 .container h2 {
   height: 800px;
   width: 200px;
-  margin: 30px;
+  margin: 10px;
   text-align: left;
+  font-size: 30px;
 }
+.container h4 {
+  font-size: 18px;
+}
+.container span {
+  font-size: 15px;
+}
+
 .box1 {
   width: 400px;
   height: 600px;
@@ -254,6 +279,9 @@ dl.serch dd{
   border: solid 1px ;
   border-radius: 10px;
   font-size:15px;
+  height:25px;
+  padding: 5px 10px;
+  font-weight: bold;
 }
 
 /* main-end */

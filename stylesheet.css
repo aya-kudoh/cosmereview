@@ -99,6 +99,16 @@ input.text {
   border: 1px solid #EB7777;
   margin:10px 10px 10px 90px;
 }
+.signup:hover {
+  display: inline-block;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  background: #DE6262;
+  color: #FFFFFF;
+  border: 1px solid #DE6262;
+  margin:10px 10px 10px 90px;
+}
 .login-btn {
   display: inline-block;
   border-radius: 5px;
@@ -107,6 +117,15 @@ input.text {
   background: #707070;
   color: #ffffff;
   border: 1px solid #707070;
+}
+.login-btn:hover {
+  display: inline-block;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  background: #575555;
+  color: #FFFFFF;
+  border: 1px solid #575555;
 }
 .login a {
   text-decoration: none;
@@ -149,7 +168,17 @@ dl.serch dd{
   margin:10px 5px;
   width:60px;
 }
-
+.serch-btn:hover {
+  display: inline-block;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  background: #000000;
+  color: #ffffff;
+  border: 1px solid #000000;
+  margin:10px 5px;
+  width:60px;
+}
 /* カテゴリー */
 .category {
   float: right;

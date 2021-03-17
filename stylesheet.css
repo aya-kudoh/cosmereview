@@ -205,12 +205,15 @@ dl.serch dd{
 }
 .category ul li a {
   text-decoration: none;
-  color: #707070;
+  color: #707070;;
   font-weight: 500;
   font-size: 17px;
   padding-bottom: 15px;
 }
-
+.category a:hover {
+  text-decoration: underline;
+  text-decoration-color: #707070;
+}
 /* side-bar end */
 
 /* main */

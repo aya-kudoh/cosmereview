@@ -236,7 +236,7 @@ dl.serch dd{
 }
 .latest-post-box {
   width: 600px;
-  height: 700px;
+  height: 1050px;
   position: absolute;
   top: 100px;
   left: 200px;
@@ -262,10 +262,24 @@ dl.serch dd{
 .latest-post span {
   font-size: 20px;
 }
+.icon-account {
+  display: flex;
+  justify-content: flex-end;
+}
+.icon-account  img{
+  width: 50px;
+  height: 50px;
+}
+.icon-account a {
+  font-size: 30px;
+  text-decoration: none;
+  color: #707070;
+  margin: 10px;
+}
 /* 人気の投稿 */
 .container{
   width: 990px;
-  height: 800px;
+  height: 950px;
   position: absolute;
   top: 1650px;
   left: 15px;
@@ -292,7 +306,7 @@ dl.serch dd{
 
 .box1 {
   width: 400px;
-  height: 600px;
+  height: 700px;
   position: absolute;
   top: 130px;
   left: 30px;
@@ -304,7 +318,7 @@ dl.serch dd{
 }
 .box2 {
   width: 400px;
-  height: 600px;
+  height: 700px;
   position: absolute;
   top: 130px;
   left: 520px;
@@ -330,7 +344,22 @@ dl.serch dd{
   padding: 5px 10px;
   font-weight: bold;
 }
-
+/* 人気の投稿アイコン */
+.icon-account-mini {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+}
+.icon-account-mini  img{
+  width: 30px;
+  height: 30px;
+  margin: 0 20px 0 5px;
+}
+.icon-account-mini a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #707070;
+}
 /* main-end */
 
 /* footer */

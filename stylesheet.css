@@ -72,7 +72,8 @@ header {
   padding: 15px;
   margin: 0px 5px;
   background: #ffffff;
-  border: solid 3px #707070;
+  border: solid 3px;
+  border-color: rgba(70, 64, 64, 0.6);
   border-radius: 20px;
   width:250px;
   position: absolute;
@@ -123,7 +124,7 @@ input.text {
   cursor: pointer;
   background: #707070;
   color: #ffffff;
-  border: 1px solid #707070;
+  border: 1px solid #464040;
 }
 .login-btn:hover {
   display: inline-block;
@@ -144,7 +145,8 @@ input.text {
   padding: 15px;
   margin: 5px;
   background: #ffffff;
-  border: solid 3px #707070;
+  border: solid 3px;
+  border-color: rgba(70, 64, 64, 0.6);
   border-radius: 20px;
   width:250px;
   position: absolute;
@@ -192,7 +194,8 @@ dl.serch dd{
   padding: 15px;
   margin: 5px;
   background: #ffffff;
-  border: solid 3px #707070;
+  border: solid 3px;
+  border-color: rgba(70, 64, 64, 0.6);
   border-radius: 20px;
   width:250px;
   position: absolute;
@@ -214,6 +217,7 @@ dl.serch dd{
 .main {
   float: left;
 }
+/* 最新の投稿 */
 .latest-post{
   width: 990px;
   height: 1200px;
@@ -222,7 +226,8 @@ dl.serch dd{
   left: 15px;
   padding: 20px;
   background: #ffffff;
-  border: solid 3px #707070;
+  border: solid 3px;
+  border-color: rgba(70, 64, 64, 0.6);
   border-radius: 20px;
   box-shadow: 8px 4px 19px -5px #777777;
 }
@@ -263,7 +268,8 @@ dl.serch dd{
   left: 15px;
   padding: 20px;
   background: #ffffff;
-  border: solid 3px #707070;
+  border: solid 3px;
+  border-color: rgba(70, 64, 64, 0.6);
   border-radius: 20px;
   box-shadow: 8px 4px 19px -5px #777777;
 }
@@ -288,7 +294,8 @@ dl.serch dd{
   top: 130px;
   left: 30px;
   background: #ffffff;
-  border: solid 3px #707070;
+  border: solid 3px;
+  border-color: rgba(70, 64, 64, 0.6);
   border-radius: 10px;
   padding: 30px;
 }
@@ -299,7 +306,8 @@ dl.serch dd{
   top: 130px;
   left: 520px;
   background: #ffffff;
-  border: solid 3px #707070;
+  border: solid 3px;
+  border-color: rgba(70, 64, 64, 0.6);
   border-radius: 10px;
   padding: 30px;
 }

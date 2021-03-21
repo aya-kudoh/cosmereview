@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0">
+    <title>charme</title>
+    <link rel="stylesheet" href="../category/stylesheet-category.css">
+    <script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
+    <script src="../category/category.js"></script>
+  </head>
+  <body>
+  <!-- header -->
+    <header>
+      <a href="../index.html" class="header-logo"><img src="../image/header-logo.png" alt=""></a>
+      <ul class="nav-bar">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="./mypage/mypage.html">Mypage</a></li>
+        <li><a href="./category/category.html">Category</a></li>
+        <li><a href="../blog/blog.html">Blog</a></li>
+      </ul>
+    </header>
+  <!-- header end -->
+
+  <!-- side bar -->
+    <div class="side-bar">
+      <div class="login">
+        <h2 class="side-bar-title">ログイン</h2>
+        <dl class="login-form">
+          <dt>ユーザー名</dt>
+          <dd><input type="text" name="name" class="text"></dd>
+          <dt>パスワード</dt>
+          <dd><input type="password" name="password" class="text"></dd>
+         </dl>
+         <input type="checkbox" name="checkbox">
+         <span>ログイン状態を保持<span><br>
+         <input type="submit" name="submit" value="新規登録" class="signup">
+         <input type="submit" name="submit" value="ログイン" class="login-btn">
+        <p><a href="">パスワードをお忘れですか？</a></p>
+      </div>
+
+      <div class="serch">
+        <h2 class="side-bar-title">検索</h2>
+        <div class="serch-form">
+          <input type="search" name="search">
+          <input type="submit" name="submit" value="検索" class="serch-btn">
+        </div>
+      </div>
+
+      <div class="category">
+        <h2 class="side-bar-title">記事を探す</h2>
+        <ul class="menu">
+          <li><div class="main_menu">メイクアップ</div>
+            <ul class="sub_menu">
+              <li><a href="#">ファンデーション</a></li>
+              <li><a href="#">下地</a></li>
+              <li><a href="#">パウダー</a></li>
+              <li><a href="#">アイシャドウ</a></li>
+              <li><a href="#">リップ</a></li>
+            </ul>
+          </li>
+          <li><div class="main_menu">スキンケア</div>
+            <ul class="sub_menu">
+              <li><a href="#">化粧水</a></li>
+              <li><a href="#">下地</a></li>
+              <li><a href="#">クリーム</a></li>
+            </ul>
+          </li>
+          <li><div class="main_menu">ブランド</div>
+            <ul class="sub_menu">
+              <li><a href="#">Dior</a></li>
+              <li><a href="#">シャネル</a></li>
+              <li><a href="#">ポールアンドジョー</a>
+              <li><a href="#">ちふれ</a></li>
+          </li>
+        </ul>
+      </div>
+  <!-- side bar end -->
+
+  <!-- main -->
+    <main>
+      <div class="category-list">
+        <h2>－メイクアップ－</h2>
+        <table cellpadding="20">
+          <tr>
+            <td><a href="#">ファンデーション</a></td>
+            <td><a href="#">アイブロウ</a></td>
+            <td><a href="#">チーク</a></td>
+          </tr>
+          <tr>
+            <td><a href="#">下地</a></td>
+            <td><a href="#">パウダー</a></td>
+            <td><a href="#">アイシャドウ</a></td>
+          </tr>
+          <tr>
+            <td><a href="#">リップ</a></td>
+            <td><a href="#">グロス</a></td>
+            <td><a href="#">マスカラ</a></td>
+          </tr>
+        </table>
+
+        <h2>－スキンケア－</h2>
+        <table cellpadding="20">
+          <tr>
+            <td><a href="#">化粧水</a></td>
+            <td><a href="#">乳液</a></td>
+            <td><a href="#">クリーム</a></td>
+          </tr>
+        </table>
+
+        <h2>－ブランド－</h2>
+        <table cellpadding="20">
+          <tr>
+            <td><a href="#">Dior</a></td>
+            <td><a href="#">Chanel</a></td>
+            <td><a href="#">PAUL & JOE BEAUTE</a></td>
+          </tr>
+          <tr>
+            <td><a href="#">NARS</a></td>
+            <td><a href="#">M・A・C</a></td>
+            <td><a href="#">アディクション</a></td>
+          </tr>
+          <tr>
+            <td><a href="#">キャンメイク</a></td>
+            <td><a href="#">ちふれ</a></td>
+            <td><a href="#">KATE</a></td>
+          </tr>
+        </table>
+        　
+      </div>
+    </main>
+  <!-- main end -->
+  <!-- footer -->
+    <footer>
+      <div class="footer">
+        <a href="#"><img src="../image/footer-logo.png" alt=""></a>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Mypage</a></li>
+          <li><a href="#">Category</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+      </div>
+    </footer>
+  <!-- footer end -->
+
+  </body>
+</html>

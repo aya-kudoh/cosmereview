@@ -1,0 +1,434 @@
+@charset "UTF-8";
+/* body */
+body {
+  /* background-image: url("wallpaper.jpg"); */
+  background: #ffffff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #707070;
+  font-family: "游ゴシック", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+}
+
+/* header */
+header {
+  width:1350px;
+}
+/* ヘッダーロゴ */
+.header-logo img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+}
+/* ナビゲーションメニュー */
+.nav-bar {
+  text-align: center;
+  background: #AD8998;
+  width:1350px;
+  height: 70px;
+  margin:auto;
+  padding:0px;
+}
+.nav-bar li{
+  list-style: none;
+  display: inline-block;
+  padding-left: 60px;
+}
+.nav-bar a {
+  color: white;
+  text-decoration: none;
+  font-size: 45px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.nav-bar a:hover {
+  color: #78415D;
+  text-decoration: none;
+  font-size: 45px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* header-end */
+
+/* side bar */
+.side-bar li{
+  list-style: none;
+}
+.side-bar-title h2{
+  font-size: 20px;
+}
+.side-bar span {
+  font-weight: 500;
+}
+.side-bar p {
+  font-size: 5px;
+}
+/* ログイン */
+.login {
+  float: right;
+  padding: 15px;
+  margin: 0px 5px;
+  background: #ffffff;
+  border: solid 3px;
+  border-color: rgba(70, 64, 64, 0.6);
+  border-radius: 20px;
+  width:250px;
+  position: absolute;
+  top: 350px;
+  left: 1065px;
+  box-shadow: 8px 4px 19px -5px #777777;
+}
+dl.login-form dt{
+  clear:left;
+  position: relative;
+  float: left;
+  width: 7em;
+  padding:10px 0px 0px 0px;
+  font-weight: 500;
+}
+dl.login-form dd{
+  margin-left: 35px;
+  width: 300px;
+  padding: 10px 0px 10px 0px;
+}
+input.text {
+  width:120px;
+}
+.signup {
+  display: inline-block;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  background: #EB7777;
+  color: #ffffff;
+  border: 1px solid #EB7777;
+  margin:10px 10px 10px 90px;
+}
+.signup:hover {
+  display: inline-block;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  background: #DE6262;
+  color: #FFFFFF;
+  border: 1px solid #DE6262;
+  margin:10px 10px 10px 90px;
+}
+.login-btn {
+  display: inline-block;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  background: #707070;
+  color: #ffffff;
+  border: 1px solid #464040;
+}
+.login-btn:hover {
+  display: inline-block;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  background: #575555;
+  color: #FFFFFF;
+  border: 1px solid #575555;
+}
+.login a {
+  text-decoration: none;
+  font-size: 15px;
+}
+/* 検索 */
+.serch {
+  float: right;
+  padding: 15px;
+  margin: 5px;
+  background: #ffffff;
+  border: solid 3px;
+  border-color: rgba(70, 64, 64, 0.6);
+  border-radius: 20px;
+  width:250px;
+  position: absolute;
+  top: 690px;
+  left: 1065px;
+  box-shadow: 8px 4px 19px -5px #777777;
+}
+dl.serch-form dt{
+  clear:left;
+  position: relative;
+  float: left;
+  width: 7em;
+  padding:10px 0px 0px 0px;
+}
+dl.serch dd{
+  margin-left: 35px;
+  width: 300px;
+  padding: 10px 0px 10px 0px;
+}
+.serch-btn {
+  display: inline-block;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  background: #3D3737;
+  color: #ffffff;
+  border: 1px solid #3D3737;
+  margin:10px 5px;
+  width:60px;
+}
+.serch-btn:hover {
+  display: inline-block;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  background: #000000;
+  color: #ffffff;
+  border: 1px solid #000000;
+  margin:10px 5px;
+  width:60px;
+}
+/* カテゴリー */
+ul, li{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.category {
+  float: right;
+  width: 250px;
+  position: absolute;
+  top: 870px;
+  left: 1065px;
+  background-color: #ffffff;
+  border: solid 3px;
+  border-color: rgba(70, 64, 64, 0.6);
+  box-shadow: 8px 4px 19px -5px #777777;
+  border-radius: 20px;
+  padding: 15px;
+  font-size: 15px;
+  color: #707070;
+  font-weight: bold;
+  margin: 5px;
+}
+.category a {
+    text-decoration: none;
+    color: #707070;
+}
+.category a:hover {
+    color: #AD8998;
+}
+.main_menu{
+    margin: 5px;
+    padding: 10px;
+    background-color: #FFFFFF;
+    font-weight: bold;
+    padding-left: 10px;
+    text-indent: 10;
+    display: block;
+    position: relative;
+    border-top-width: 1px;
+    border-top-style: dashed;
+    border-top-color: #CCC;
+    width: 230px;
+}
+.main_menu::before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    border: 0px;
+    border-top: solid 2px #707070;
+    border-right: solid 2px #707070;
+    -ms-transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    margin-top: -6px;
+}
+.menu .open::before {
+    -ms-transform: rotate(315deg);
+    -webkit-transform: rotate(315deg);
+    transform: rotate(315deg);
+    margin-top: -3px;
+}
+.menu .main_menu:hover ,.menu .open {
+    background-color: #FFFFFF;
+    color: #AD8998;
+}
+.menu .main_menu:hover::before ,.menu .open::before{
+    border-top: solid 2px #AD8998;
+    border-right: solid 2px #AD8998;
+}
+.sub_menu li a{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-indent: 40px;
+    background-color: #FFFFFF;
+    display: block;
+    position: relative;
+    border-top-width: 1px;
+    border-top-style: dashed;
+    border-top-color: #CCC;
+}
+.sub_menu li a::before{
+    content: '';
+    width: 0;
+    height: 0;
+    border: solid 4px transparent;
+    border-left: solid 6px #707070;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -4px;
+    margin-left: 25px;
+}
+.sub_menu li a:hover{
+    background-color: #FFFFFF;
+}
+.sub_menu li a:hover::before {
+    border-left: solid 6px #707070;
+}
+.third_menu li a{
+    padding-left: 40px;
+    border-top-style: none;
+    padding-bottom: 6px;
+    padding-top: 6px;
+}
+.third_menu li a::before{
+    margin-left: 65px;
+}
+/* side-bar end */
+
+/* main */
+/* プロフィール */
+.mypage {
+  width:960px;
+  height: 1500px;
+  border: solid 3px;
+  border-color: rgba(70, 64, 64, 0.6);
+  box-shadow: 8px 4px 19px -5px #777777;
+  border-radius: 20px;
+  padding: 15px;
+  margin-top: 75px;
+  margin-left: 10px;
+  padding: 10px;
+  text-align: center;
+}
+.mypage img {
+  width: 100px;
+  height: 100px;
+}
+.profilebox {
+  width:920px;
+  display: flex;
+  justify-content: center;
+  padding: 30px 15px 15px 15px;
+}
+.profile {
+  display: flex;
+  flex-flow: column;
+  font-size: 20px;
+  margin:20px;
+  text-align: left;
+}
+.profile a {
+  text-decoration: none;
+  color: #EB7777;
+}
+.profile a:hover {
+  text-decoration: underline;
+}
+.mypage p {
+  font-size: 20px;
+  text-align: left;
+  display: inline-block;
+  margin: 0 auto;
+}
+/* 今までの投稿 */
+.mypage h2 {
+  text-align: left;
+  margin-top: 40px;
+  padding-left: 15px;
+  font-size: 25px;
+}
+.mypost {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.post-box {
+  width: 350px;
+  top: 110px;
+  left: 200px;
+  background: #ffffff;
+  text-align: center;
+  border: solid 3px;
+  border-color: rgba(70, 64, 64, 0.6);
+  border-radius: 20px;
+  padding: 15px;
+  margin: 0;
+
+}
+.post-box img {
+  width:150px;
+  height: 150px;
+  margin-bottom: 5px;
+}
+.post-category {
+  display: inline-block;
+  background: #F39E9E;
+  color: #ffffff;
+  border: solid 1px ;
+  border-radius: 10px;
+  font-size:13px;
+  height:20px;
+  padding: 5px 10px;
+  font-weight: bold;
+}
+.post-box h4 {
+  font-size: 14px;
+  margin: 10px 0;
+}
+.contents {
+  text-align: left;
+  padding-left: 5px;
+  font-size: 10px;
+}
+.post-box a {
+  padding-left: 180px;
+  text-decoration: none;
+  color: #F39E9E;
+  font-weight: bold;
+}
+
+/* main-end */
+
+/* footer */
+.footer {
+  clear: both;
+  margin-top:100px;
+  width:1350px;
+  height:200px;
+  background: #AD8998;
+  display: flex;
+}
+.footer img {
+  margin:30px 780px 20px 50px;
+}
+.footer li {
+  margin-top:10px;
+  list-style: none;
+  font-size: 20px;
+}
+.footer a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.footer a:hover {
+  color: #78415D;
+  text-decoration: none;
+}
+/* footer-end */
